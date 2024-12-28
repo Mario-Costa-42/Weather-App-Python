@@ -1,4 +1,3 @@
-import http
 import requests
 
 def get_weather(city_name, api_key):
@@ -52,7 +51,6 @@ def display_weather(data):
         print(f"Wind Speed: {wind_speed} m/s")
 
 if __name__ == "__main__":
-    # Replace with your OpenWeatherMap API key
     API_KEY = "890a2a107622a5383b9783c127949ada"
 
     # Ask the user for a city name
